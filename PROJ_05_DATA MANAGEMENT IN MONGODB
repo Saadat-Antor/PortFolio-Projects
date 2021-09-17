@@ -1,0 +1,5 @@
+#### Creating a Database, collection and importing movies_initial.csv file to the MongoDB Atlas ####
+
+  mongoimport --uri mongodb+srv://sadat:<PASSWORD>@mflix.qr9w3.mongodb.net/mflix --collection movies_initial --type csv --headerline --file C:\Users\Sadat\Desktop\MongoDB\movies_initial.csv
+
+
